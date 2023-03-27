@@ -7,8 +7,8 @@ metadata:
 spec:
   selector:
     app: nginx-app
-  type: NodePort
-  ports:
-  - nodePort: 31111
-    port: 80
-    targetPort: 80
+  type: ClusterIP  # NodePort
+  # ports:
+  # - nodePort: 31111
+  #  port: 80
+  #  targetPort: 80
