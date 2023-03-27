@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/joephilippe/helm-deploy-method.git # the url of github repo u want argocd to track
     targetRevision: HEAD
-    path: templates # just the directory where ur code are # give urs here from ur github repo
+    path: helm-cmds-use-for-deploy-manifest-files/helm-cmds-use-for-deploy-manifest-files/templates/
   destination:
     server: https://kubernetes.default.svc  
     namespace: helm-deploy  # give ur own name # this is new ns that u want argocd to create
